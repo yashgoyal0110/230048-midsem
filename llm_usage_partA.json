@@ -1,0 +1,85 @@
+{
+  "student_metadata": {
+    "name": "YASH GOYAL",
+    "roll_number": "230048",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-02"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Refining the research paper selection prompt according to official exam constraints",
+      "prompt": "according to these guidelines give me few research paper for my exam and course satisfying all criterias mentioned in instructions refine this prompt",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped me structure a precise and constraint-compliant prompt aligned with the official Part A requirements, including conference tier, time window, and methodological restrictions.",
+      "student_verification": "Cross-checked the refined prompt against the official Mid-Semester Examination PDF to ensure all constraints (conference tier, year range, classical ML focus, exclusions) were explicitly included.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Structuring LLM usage disclosure JSON for submission",
+      "prompt": "convert this thread chat to this format exactly student name YASH GOYAL for submission purpose",
+      "llm_response_used": "Yes",
+      "how_it_helped": "ChatGPT reformatted the conversation into the required structured JSON format for transparent LLM usage disclosure as required in Part A.",
+      "student_verification": "Reviewed all fields to ensure they accurately reflect my actual interaction and that no fabricated steps were included.",
+      "confidence_level": 5
+    }
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "(1) Search for research papers published between 2008 and 2013 (with a focus on 2010-2012) from top-tier conferences like NeurIPS (NIPS), ICML, AISTATS, and KDD.\n\n(2) Filter the search results for papers whose primary contribution is a classical method in Support Vector Machines (SVM), Gaussian Mixture Models (GMM), or Time Series modeling (including ARIMA extensions, EM-based variants, and kernel methods).\n\n(3) Using the constraints in Midsem Instructions.pdf, ensure the suggested papers are not deep learning-based, survey papers, or purely empirical/benchmarking studies.\n\n(4) Verify that each paper introduces or explains a core method, model, or theoretical idea rather than just applying an existing technique.\n\n(5) For each suitable paper, identify the title, authors, publication year, and the specific conference it was presented in.\n\n(6) Provide a brief summary of the core method or theoretical contribution of each paper to ensure it meets the requirements for reproducibility and analysis in Part B.\n\n(7) Cross-reference the identified papers with the detailed syllabus link provided in Midsem Instructions.pdf to ensure topical relevance to the course units.\n\n(8) Organize the final suggestions into a list, highlighting why each paper is a strong candidate based on the eligibility checklist provided in the document.",
+      "why_important": "This was the most important interaction because it ensured my research paper selection process strictly aligned with all official constraints such as A* conference requirement, year window, and exclusion of deep learning or survey papers."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 1,
+      "prompt": "Among the shortlisted papers, compare their theoretical depth, mathematical rigor, and potential for reproducibility in a 10-day open-book setting, and recommend the strongest final candidate.",
+      "why_important": "This helped evaluate not just eligibility but practical feasibility for Part B reproduction and experimentation."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 1,
+      "prompt": "For the selected paper, explain the core algorithm step-by-step and outline what components would need to be implemented from scratch versus reused from standard libraries.",
+      "why_important": "This helped me assess implementation complexity and prepare mentally for Part B reproduction tasks."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 1,
+      "prompt": "Identify publicly available datasets commonly used in the paper or suitable alternatives, and explain why they are appropriate for validating the core method.",
+      "why_important": "This ensured dataset feasibility and alignment with reproducibility expectations in the exam guidelines."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 1,
+      "prompt": "List potential failure cases or limitations of the selected method and suggest diagnostic experiments that could be performed to critically analyze its behavior.",
+      "why_important": "This prepared me for deeper analytical reasoning required in Part B and Part C, especially explaining unexpected results or limitations."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding_acknowledged": true,
+    "signature": "YASH GOYAL",
+    "date": "2026-03-02"
+  }
+}
