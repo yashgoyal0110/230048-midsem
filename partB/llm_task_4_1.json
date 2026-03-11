@@ -1,0 +1,34 @@
+{
+  "task_tag": "Task 4.1",
+  "code_used_verbatim": false,
+  "student_modification": "N/A \u2014 no LLM-generated code was used verbatim. All implementation decisions were made independently.",
+  "interactions": [
+    {
+      "prompt": "Review my report draft and suggest improvements to clarity and conciseness.",
+      "purpose": "Writing assistance \u2014 checking that the report is within 4 pages and clearly structured",
+      "model": "claude-sonnet",
+      "code_used": false
+    },
+    {
+      "prompt": "Help me write a concise one-paragraph summary of the SMM paper for a technical audience.",
+      "purpose": "Draft assistance for the report's introduction paragraph",
+      "model": "claude-sonnet",
+      "code_used": false
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "prompt": "Review my report draft and suggest improvements to clarity and conciseness.",
+      "purpose": "Writing assistance \u2014 checking that the report is within 4 pages and clearly structured"
+    },
+    {
+      "prompt": "Help me write a concise one-paragraph summary of the SMM paper for a technical audience.",
+      "purpose": "Draft assistance for the report's introduction paragraph"
+    }
+  ],
+  "student_verification": {
+    "declaration": "I declare that all LLM usage is accurately disclosed above. The decisions on which components to ablate, the identification of the failure mode, and the written reflections are my own. LLMs were used for reading assistance and debugging only.",
+    "student_name": "[Your Name]",
+    "roll_number": "[Your Roll Number]"
+  }
+}

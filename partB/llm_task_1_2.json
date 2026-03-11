@@ -1,0 +1,34 @@
+{
+  "task_tag": "Task 1.2",
+  "code_used_verbatim": false,
+  "student_modification": "N/A \u2014 no LLM-generated code was used verbatim. All implementation decisions were made independently.",
+  "interactions": [
+    {
+      "prompt": "Help me understand what 'characteristic kernel' means and give an example of a kernel that is NOT characteristic.",
+      "purpose": "Understanding the characteristic kernel assumption to write Assumption 1 precisely",
+      "model": "claude-sonnet",
+      "code_used": false
+    },
+    {
+      "prompt": "What is a Wishart distribution and how does it relate to sampling random covariance matrices?",
+      "purpose": "Understanding the paper's experimental setup in Section 6 for Assumption 2",
+      "model": "claude-sonnet",
+      "code_used": false
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "prompt": "Help me understand what 'characteristic kernel' means and give an example of a kernel that is NOT characteristic.",
+      "purpose": "Understanding the characteristic kernel assumption to write Assumption 1 precisely"
+    },
+    {
+      "prompt": "What is a Wishart distribution and how does it relate to sampling random covariance matrices?",
+      "purpose": "Understanding the paper's experimental setup in Section 6 for Assumption 2"
+    }
+  ],
+  "student_verification": {
+    "declaration": "I declare that all LLM usage is accurately disclosed above. The decisions on which components to ablate, the identification of the failure mode, and the written reflections are my own. LLMs were used for reading assistance and debugging only.",
+    "student_name": "[Your Name]",
+    "roll_number": "[Your Roll Number]"
+  }
+}

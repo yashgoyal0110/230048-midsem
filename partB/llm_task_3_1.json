@@ -1,0 +1,45 @@
+{
+  "task_tag": "Task 3.1",
+  "code_used_verbatim": false,
+  "student_modification": "N/A \u2014 no LLM-generated code was used verbatim. All implementation decisions were made independently.",
+  "interactions": [
+    {
+      "prompt": "For the SMM paper, what are two components I could ablate to test the method's sensitivity?",
+      "purpose": "Brainstorming ablation candidates \u2014 I then independently chose and justified the embedding kernel and level-2 kernel",
+      "model": "claude-sonnet",
+      "code_used": false,
+      "note": "The choice of which components to ablate was made independently after understanding the paper's Table 2 (which shows embedding vs level-2 kernel sensitivity)."
+    },
+    {
+      "prompt": "How do I run a linear SVM on a precomputed kernel matrix in sklearn?",
+      "purpose": "Clarifying whether kernel='linear' can accept a precomputed matrix (it cannot \u2014 used separate approach)",
+      "model": "claude-sonnet",
+      "code_used": false
+    },
+    {
+      "prompt": "Help me write a seaborn/matplotlib bar chart with error bars showing ablation results.",
+      "purpose": "Plotting assistance for the ablation bar charts",
+      "model": "claude-sonnet",
+      "code_used": false
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "prompt": "For the SMM paper, what are two components I could ablate to test the method's sensitivity?",
+      "purpose": "Brainstorming ablation candidates \u2014 I then independently chose and justified the embedding kernel and level-2 kernel"
+    },
+    {
+      "prompt": "How do I run a linear SVM on a precomputed kernel matrix in sklearn?",
+      "purpose": "Clarifying whether kernel='linear' can accept a precomputed matrix (it cannot \u2014 used separate approach)"
+    },
+    {
+      "prompt": "Help me write a seaborn/matplotlib bar chart with error bars showing ablation results.",
+      "purpose": "Plotting assistance for the ablation bar charts"
+    }
+  ],
+  "student_verification": {
+    "declaration": "I declare that all LLM usage is accurately disclosed above. The decisions on which components to ablate, the identification of the failure mode, and the written reflections are my own. LLMs were used for reading assistance and debugging only.",
+    "student_name": "[Your Name]",
+    "roll_number": "[Your Roll Number]"
+  }
+}

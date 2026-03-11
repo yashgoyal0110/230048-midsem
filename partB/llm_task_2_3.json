@@ -1,0 +1,34 @@
+{
+  "task_tag": "Task 2.3",
+  "code_used_verbatim": false,
+  "student_modification": "N/A \u2014 no LLM-generated code was used verbatim. All implementation decisions were made independently.",
+  "interactions": [
+    {
+      "prompt": "Help me write a markdown table comparing my results to the paper's results.",
+      "purpose": "Formatting assistance for the result comparison table",
+      "model": "claude-sonnet",
+      "code_used": false
+    },
+    {
+      "prompt": "How should I explain a discrepancy between my reproduced result (89.0%) and the paper's result (89.65%)?",
+      "purpose": "Getting guidance on how to frame reproduction gaps honestly",
+      "model": "claude-sonnet",
+      "code_used": false
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "prompt": "Help me write a markdown table comparing my results to the paper's results.",
+      "purpose": "Formatting assistance for the result comparison table"
+    },
+    {
+      "prompt": "How should I explain a discrepancy between my reproduced result (89.0%) and the paper's result (89.65%)?",
+      "purpose": "Getting guidance on how to frame reproduction gaps honestly"
+    }
+  ],
+  "student_verification": {
+    "declaration": "I declare that all LLM usage is accurately disclosed above. The decisions on which components to ablate, the identification of the failure mode, and the written reflections are my own. LLMs were used for reading assistance and debugging only.",
+    "student_name": "[Your Name]",
+    "roll_number": "[Your Roll Number]"
+  }
+}

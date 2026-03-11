@@ -1,0 +1,46 @@
+{
+  "task_tag": "Task 2.2",
+  "code_used_verbatim": true,
+  "student_modification": "The vectorized RBF kernel formula was adapted from an LLM suggestion. I modified the scaling constant from gamma to gamma/2 to match Equation (4) of the paper, and restructured the function to handle arbitrary batch sizes. The surrounding empirical_expected_kernel and build_kernel_matrix functions were written independently.",
+  "interactions": [
+    {
+      "prompt": "How do I use sklearn SVC with a precomputed kernel matrix?",
+      "purpose": "Debugging the kernel='precomputed' API \u2014 the test matrix shape requirement was unclear",
+      "model": "claude-sonnet",
+      "code_used": false,
+      "note": "The fix (transposing K_test to shape n_test x n_train) was discovered by reading sklearn documentation after the prompt."
+    },
+    {
+      "prompt": "Show me how to compute the RBF kernel matrix between two sets of vectors X and Z efficiently in numpy.",
+      "purpose": "Writing the vectorized rbf_kernel_matrix function",
+      "model": "claude-sonnet",
+      "code_used": true,
+      "student_mod": "Adapted the vectorized formula; added the gamma/2 scaling to match Eq.(4) in the paper."
+    },
+    {
+      "prompt": "What is the correct shape of the test kernel matrix when using kernel='precomputed' in sklearn SVC?",
+      "purpose": "Debugging shape mismatch error during predict()",
+      "model": "claude-sonnet",
+      "code_used": false
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "prompt": "How do I use sklearn SVC with a precomputed kernel matrix?",
+      "purpose": "Debugging the kernel='precomputed' API \u2014 the test matrix shape requirement was unclear"
+    },
+    {
+      "prompt": "Show me how to compute the RBF kernel matrix between two sets of vectors X and Z efficiently in numpy.",
+      "purpose": "Writing the vectorized rbf_kernel_matrix function"
+    },
+    {
+      "prompt": "What is the correct shape of the test kernel matrix when using kernel='precomputed' in sklearn SVC?",
+      "purpose": "Debugging shape mismatch error during predict()"
+    }
+  ],
+  "student_verification": {
+    "declaration": "I declare that all LLM usage is accurately disclosed above. The decisions on which components to ablate, the identification of the failure mode, and the written reflections are my own. LLMs were used for reading assistance and debugging only.",
+    "student_name": "[Your Name]",
+    "roll_number": "[Your Roll Number]"
+  }
+}
